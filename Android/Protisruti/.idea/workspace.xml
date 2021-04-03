@@ -6,13 +6,16 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e4b1073-84da-4cd4-b621-f5580e50e0a9" name="Default Changelist" comment="" />
+    <list default="true" id="9e4b1073-84da-4cd4-b621-f5580e50e0a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_API_30_x86]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -55,6 +58,9 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1qZXr1bccQKSCash4fDaTVTcnjp" />
   <component name="ProjectViewState">
@@ -171,29 +177,44 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617428964442">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1617428964442" />
+    <state x="-174" y="73" width="1080" height="480" key="AVDManager" timestamp="1617428982333">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="-174" y="73" width="1080" height="480" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1617428982333" />
     <state x="-1371" y="172" key="FileChooserDialogImpl" timestamp="1617380083557">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state x="-1371" y="172" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1617380083557" />
-    <state width="1491" height="213" key="GridCell.Tab.0.bottom" timestamp="1617381695346">
-      <screen x="-1920" y="0" width="1536" height="834" />
+    <state width="1220" height="160" key="GridCell.Tab.0.bottom" timestamp="1617428878823">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1220" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1617428878823" />
     <state width="1491" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1617381695346" />
     <state width="1491" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1617292245023" />
-    <state width="1491" height="213" key="GridCell.Tab.0.center" timestamp="1617381695345">
-      <screen x="-1920" y="0" width="1536" height="834" />
+    <state width="1220" height="160" key="GridCell.Tab.0.center" timestamp="1617428878822">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1220" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1617428878822" />
     <state width="1491" height="213" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1617381695345" />
     <state width="1491" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1617292245022" />
-    <state width="1491" height="213" key="GridCell.Tab.0.left" timestamp="1617381695345">
-      <screen x="-1920" y="0" width="1536" height="834" />
+    <state width="1220" height="160" key="GridCell.Tab.0.left" timestamp="1617428878822">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1220" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1617428878822" />
     <state width="1491" height="213" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1617381695345" />
     <state width="1491" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1617292245022" />
-    <state width="1491" height="213" key="GridCell.Tab.0.right" timestamp="1617381695345">
-      <screen x="-1920" y="0" width="1536" height="834" />
+    <state width="1220" height="160" key="GridCell.Tab.0.right" timestamp="1617428878823">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1220" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1617428878823" />
     <state width="1491" height="213" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1617381695345" />
     <state width="1491" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1617292245022" />
     <state x="-1336" y="195" key="chooseDestDirectoryDialog" timestamp="1617380138271">
