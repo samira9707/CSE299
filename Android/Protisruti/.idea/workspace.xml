@@ -5,29 +5,8 @@
       <config />
     </shared>
   </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e4b1073-84da-4cd4-b621-f5580e50e0a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9e4b1073-84da-4cd4-b621-f5580e50e0a9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,16 +56,6 @@
       </state>
     </system>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="resourceFile" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
   <component name="ProjectId" id="1qZXr1bccQKSCash4fDaTVTcnjp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -95,16 +64,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="settings.editor.selected.configurable" value="emulator" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CSE482\CSE299\Android\Protisruti\app\src\main\res\drawable" />
+      <recent name="F:\Protisruti\app\src\main\res\drawable-v24" />
       <recent name="E:\Learning_folder\Protisruti\app" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Protisruti:app [signingReport]">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -112,7 +81,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="Protisruti.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -169,7 +138,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Protisruti:app [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Protisruti:app [signingReport]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
@@ -188,11 +157,6 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.Protisruti:app [signingReport]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -207,58 +171,34 @@
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617392124283">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="-1371" y="172" key="FileChooserDialogImpl" timestamp="1617380083557">
+      <screen x="-1920" y="0" width="1536" height="834" />
     </state>
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1617392124283" />
-    <state x="100" y="100" width="1080" height="480" key="AVDManager" timestamp="1617395343325">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="-1371" y="172" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1617380083557" />
+    <state width="1491" height="213" key="GridCell.Tab.0.bottom" timestamp="1617381695346">
+      <screen x="-1920" y="0" width="1536" height="834" />
     </state>
-    <state x="100" y="100" width="1080" height="480" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1617395343325" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1617397156133">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1617397156133" />
-    <state width="1220" height="160" key="GridCell.Tab.0.bottom" timestamp="1617387427438">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1220" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1617387427438" />
+    <state width="1491" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1617381695346" />
     <state width="1491" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1617292245023" />
-    <state width="1220" height="160" key="GridCell.Tab.0.center" timestamp="1617387427438">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1491" height="213" key="GridCell.Tab.0.center" timestamp="1617381695345">
+      <screen x="-1920" y="0" width="1536" height="834" />
     </state>
-    <state width="1220" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1617387427438" />
+    <state width="1491" height="213" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1617381695345" />
     <state width="1491" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1617292245022" />
-    <state width="1220" height="160" key="GridCell.Tab.0.left" timestamp="1617387427438">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1491" height="213" key="GridCell.Tab.0.left" timestamp="1617381695345">
+      <screen x="-1920" y="0" width="1536" height="834" />
     </state>
-    <state width="1220" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1617387427438" />
+    <state width="1491" height="213" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1617381695345" />
     <state width="1491" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1617292245022" />
-    <state width="1220" height="160" key="GridCell.Tab.0.right" timestamp="1617387427438">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1491" height="213" key="GridCell.Tab.0.right" timestamp="1617381695345">
+      <screen x="-1920" y="0" width="1536" height="834" />
     </state>
-    <state width="1220" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1617387427438" />
+    <state width="1491" height="213" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1617381695345" />
     <state width="1491" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1617292245022" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1617395032164">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="-1336" y="195" key="chooseDestDirectoryDialog" timestamp="1617380138271">
+      <screen x="-1920" y="0" width="1536" height="834" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1617395032164" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1617392180306">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1617392180306" />
+    <state x="-1336" y="195" key="chooseDestDirectoryDialog/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1617380138271" />
   </component>
 </project>
