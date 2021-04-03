@@ -13,25 +13,26 @@
         android:id="@+id/menu"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:src="@drawable/ic_menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.04"
-        app:srcCompat="@drawable/ic_menu" />
+        app:layout_constraintVertical_bias="0.04"/>
+
 
     <ImageView
         android:id="@+id/temperature"
         android:layout_width="135dp"
         android:layout_height="145dp"
+        android:src="@drawable/ic_sun"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.186"
-        app:srcCompat="@drawable/ic_sun" />
+        app:layout_constraintVertical_bias="0.186"/>
 
     <TextView
         android:id="@+id/textView1"
@@ -82,13 +83,13 @@
         android:id="@+id/soi_moisture"
         android:layout_width="33dp"
         android:layout_height="33dp"
+        android:src="@drawable/ic_moisturizing"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.288"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.484"
-        app:srcCompat="@drawable/ic_moisturizing" />
+        app:layout_constraintVertical_bias="0.484"/>
 
     <TextView
         android:id="@+id/textView4"
@@ -139,25 +140,25 @@
         android:id="@+id/light"
         android:layout_width="100dp"
         android:layout_height="121dp"
+        android:src="@drawable/ic_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.083"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.854"
-        app:srcCompat="@drawable/ic_light" />
+        app:layout_constraintVertical_bias="0.854"/>
 
     <ImageButton
         android:id="@+id/motor"
         android:layout_width="100dp"
         android:layout_height="121dp"
+        android:src="@drawable/ic_motor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.919"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.865"
-        app:srcCompat="@drawable/ic_motor" />
+        app:layout_constraintVertical_bias="0.865"/>
 
     <TextView
         android:id="@+id/textView7"
