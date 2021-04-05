@@ -10,7 +10,7 @@
         android:id="@+id/background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:alpha="0.77"
+        android:alpha="0.70"
         android:background="@drawable/splash_screen_img"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
