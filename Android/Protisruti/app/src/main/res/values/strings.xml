@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Protisruti</string>
+    <string-array name="spinner_array">
+        <item>bangladesh(+880)</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

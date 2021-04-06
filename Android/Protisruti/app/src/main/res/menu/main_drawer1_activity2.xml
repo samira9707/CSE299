@@ -8,6 +8,7 @@
             android:id="@+id/user"
             android:icon="@drawable/ic_user"
             android:title="Sirajus Salekin Nahin" />
+
         <item
             android:id="@+id/account"
             android:icon="@drawable/ic_account"
