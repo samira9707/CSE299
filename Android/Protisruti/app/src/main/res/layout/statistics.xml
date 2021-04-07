@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#929E93"
+    tools:context=".MainActivity">
+    //menubar
+    <ImageButton
+        android:id="@+id/menu"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/ic_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+//statistic_header
+    <TextView
+        android:id="@+id/statistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STATISTICS"
+        android:textColor="#545353"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+//daily report
+    <TextView
+        android:id="@+id/daily_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Report"
+        android:textColor="#403F3F"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.162" />
+
+//monthly report
+    <TextView
+        android:id="@+id/monthly_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monthly Report"
+        android:textColor="#403F3F"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463" />
+
+    //yearly report
+    <TextView
+        android:id="@+id/yearly_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yearly Report"
+        android:textColor="#403F3F"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742" />
+
+    //daily graph
+    <ImageView
+        android:id="@+id/daily_graph"
+        android:layout_width="108dp"
+        android:layout_height="105dp"
+        android:src="@drawable/chart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273" />
+
+    //monthly_graph
+    <ImageView
+        android:id="@+id/monthly_graph"
+        android:layout_width="108dp"
+        android:layout_height="105dp"
+        android:src="@drawable/chart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592" />
+
+    //yearly graph
+    <ImageView
+        android:id="@+id/yearly_graph"
+        android:layout_width="108dp"
+        android:layout_height="105dp"
+        android:src="@drawable/chart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.902" />
+
+    //yearly report details
+    <TextView
+        android:id="@+id/yearly_details"
+        android:layout_width="259dp"
+        android:layout_height="120dp"
+        android:text="Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit, sed
+diam nonummy nibh euismod
+tincidunt ut laoreet dolore
+magna aliquam erat "
+        android:textColor="#fff"
+        android:textFamily="Tahoma"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
+
+    //monthly report details
+    <TextView
+        android:id="@+id/monthly_details"
+        android:layout_width="259dp"
+        android:layout_height="120dp"
+        android:text="Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit, sed
+diam nonummy nibh euismod
+tincidunt ut laoreet dolore
+magna aliquam erat "
+        android:textColor="#fff"
+        android:textFamily="Tahoma"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.607" />
+
+    //daily report details
+
+    <TextView
+        android:id="@+id/daily_details"
+        android:layout_width="259dp"
+        android:layout_height="120dp"
+        android:text="Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit, sed
+diam nonummy nibh euismod
+tincidunt ut laoreet dolore
+magna aliquam erat "
+        android:textColor="#fff"
+        android:textFamily="Tahoma"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279" />

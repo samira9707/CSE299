@@ -10,7 +10,7 @@
     
     <!--MENUBAR ICON BUTTON-->
     <ImageButton
-        android:id="@+id/menubar"
+        android:id="@+id/menu"
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:src="@drawable/ic_menu"
@@ -211,6 +211,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.921" />
+
+//english/bangla version button
+    <Button
+        android:id="@+id/button"
+        android:layout_width="87dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#929E93"
+        android:text="English"
+        android:textColor="@color/white"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
