@@ -1,7 +1,9 @@
 from time import sleep
 import RPi.GPIO as GPIO
 from gpiozero import InputDevice
-GPIO.setmode(GPIO.BOARD)
+from gpiozero import OutputDevice
+
+
 import os
 import glob
 import time
@@ -9,14 +11,14 @@ import pyrebase
 from datetime import datetime, timezone
 import pytz
 config = {
-  'apiKey': "AIzaSyDwEVg5DxCaDKmDMNj3AiVMlQzdSZu95yQ",
-    'authDomain': "protisruti-6e45e.firebaseapp.com",
-    'databaseURL': "https://protisruti-6e45e-default-rtdb.firebaseio.com",
-    'projectId': "protisruti-6e45e",
-    'storageBucket': "protisruti-6e45e.appspot.com",
-    'messagingSenderId': "169084830210",
-    'appId': "1:169084830210:web:4788ed7f875010cc6e1d1b",
-    'measurementId': "G-L25C5J81ZM"
+  'apiKey': "AIzaSyDuEOTHTtVqf3qVHHBjEZJM2u2uStNgAL0",
+    'authDomain': "protisruti0.firebaseapp.com",
+    'databaseURL': "https://protisruti0-default-rtdb.firebaseio.com",
+    'projectId': "protisruti0",
+    'storageBucket': "protisruti0.appspot.com",
+    'messagingSenderId': "965893934891",
+    'appId': "1:965893934891:web:a04fdee508d76df0633f6e",
+    'measurementId': "G-BP8GN37Y3R"
 }
 
 
@@ -25,8 +27,19 @@ firebase = pyrebase.initialize_app(config)
 db = firebase.database()
 
 
+
+# GPIO set
+
+
+
+ # Turn motor off
+
+
 pin_to_circuit = 11
 signal = InputDevice(21)
+channel= 27
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(channel, GPIO.OUT)
 #these tow lines mount the device:
 os.system('modprobe w1-gpio')
 os.system('modprobe w1-therm')
@@ -75,6 +88,24 @@ def rc_time (pin_to_circuit):
 
 #Catch when script is interrupted, cleanup correctly
 
+def motor_off(pin):
+    GPIO.output(pin, GPIO.HIGH)  # Turn motor on
+    
+
+def motor_on(pin):
+    GPIO.output(pin, GPIO.LOW)
+    # Turn motor off
+def motor_control(channel):
+    if __name__ == '__main__':
+        try:
+            motor_on(channel)
+            time.sleep(5)
+            motor_off(channel)
+            time.sleep(5)
+            GPIO.cleanup()
+        except KeyboardInterrupt:
+            GPIO.cleanup()
+    
 
 while True:
    
@@ -86,25 +117,27 @@ while True:
     dt = time_now.strftime("%d-%m-%Y"+"-"+"%H:%M:%S")
     c, f = read_temp()
     print('C={:,.3f} F={:,.3f}'.format(c, f))
-    abir = rc_time(pin_to_circuit);
+    ldrdata = rc_time(pin_to_circuit);
     print(rc_time(pin_to_circuit))
     
     if not signal.is_active:
-            print("Moisture Detected")
-            detected= 1;
+            print("moisture detected")
+            motor_on(channel)
+            time.sleep(1)
+            detected =1
     else:
-            print("Not Detected")
-            detected = 0;
-    data = {
-         "temp":c,
-         "ldr":abir,
-         "Moisture":detected,
-         "Time": dt,
+            print("motor off")
+            motor_off(channel)
+            time.sleep(2)
+            detected=0
+    data ={
+         "temp":str(c),
+         "ldr":str(ldrdata),
+         "Moisture":str (detected),
+         "Time": str (dt),
         }
     
 
     db.child("Data").child(dt).set(data)
    
-    sleep(5)
-
-    
+    sleep(1)
