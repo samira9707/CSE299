@@ -18,8 +18,10 @@ authe = firebase.auth()
 database=firebase.database()
 
 def fetchdata(request):
-    most= database.child("LastUpdate").child("ldr").get().val()
-   
+    most= database.child("LastUpdate").child("Moisture").get().val()
+    light= database.child("LastUpdate").child("Light").get().val()
+    time = database.child("LastUpdate").child("Time").get().val()
+    temp = database.child("LastUpdate").child("temp").get().val()
     """
     d= database.child("Data").shallow().get().val()
     date=[]
@@ -44,4 +46,4 @@ def fetchdata(request):
         time.append(tm)
         rudesamira = zip(ldr,moisture,temp,time)
     """
-    return render(request,'index.html',{'most':most})
+    return render(request,'index.html',{'most':most,'light':light,'Time':time,'temp':temp})
