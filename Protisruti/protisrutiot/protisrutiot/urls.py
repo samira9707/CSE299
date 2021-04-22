@@ -19,4 +19,8 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('fetchdata',views.fetchdata),
+    path('otp',views.otp),
+    path('login',views.login)
+    
 ]
+

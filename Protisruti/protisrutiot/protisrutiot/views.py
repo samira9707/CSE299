@@ -46,4 +46,11 @@ def fetchdata(request):
         time.append(tm)
         rudesamira = zip(ldr,moisture,temp,time)
     """
-    return render(request,'index.html',{'most':most,'light':light,'Time':time,'temp':temp})
+    return render(request,'home.html',{'most':most,'light':light,'Time':time,'temp':temp})
+
+def otp(request):
+
+    return render(request,'otp.html')
+    
+def login(request):
+    return render(request,'login.html')
