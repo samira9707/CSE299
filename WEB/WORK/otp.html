@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Protisruti</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+    <body>
+
+    <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-color: #929E93; background-repeat: no-repeat; background-size: cover; background-position: center center;">
+<div class="container height-100 d-flex justify-content-center align-items-center">
+    <div class="position-relative">
+
+        <div class="card p-2 text-center">
+
+            <h6>Enter the OTP </h6>
+            <div> <span style="font-size: 13px">A code has been sent to</span> <small>*******9897</small> </div>
+            <div id="otp" class="inputs d-flex flex-row justify-content-center mt-2"> <input class="m-2 text-center form-control rounded" type="text" id="first" maxlength="1" /> 
+            <input class="m-2 text-center form-control rounded" type="text" id="second" maxlength="1" /> 
+            <input class="m-2 text-center form-control rounded" type="text" id="third" maxlength="1" /> 
+            <input class="m-2 text-center form-control rounded" type="text" id="fourth" maxlength="1" />
+            <input class="m-2 text-center form-control rounded" type="text" id="fifth" maxlength="1" />
+            <input class="m-2 text-center form-control rounded" type="text" id="sixth" maxlength="1" /> </div>
+            <button type="button" class="btn btn-orange btn-sm btn-add-phone"><span class="glyphicon glyphicon-plus"></span> Enter</button>
+             <div class="content d-flex justify-content-center align-items-center"> <span style="font-size: 13px">Didn't get the code?<a href="#" class="text-decoration-none ms-3"> Resend: 0:59s</a> </span></div> 
+             </div>
+            
+
+        </div>
+
+    
+        </div>
+    </div>
+
+
+
+<script>document.addEventListener("DOMContentLoaded", function(event) {
+
+function OTPInput() {
+const inputs = document.querySelectorAll('#otp > *[id]');
+for (let i = 0; i < inputs.length; i++) { inputs[i].addEventListener('keydown', function(event) { if (event.key==="Backspace" ) { inputs[i].value='' ;
+if (i !==0) inputs[i - 1].focus(); }
+else { if (i===inputs.length - 1 && inputs[i].value !=='' ) { return true; }
+else if (event.keyCode> 47 && event.keyCode < 58) { inputs[i].value=event.key; 
+if (i !==inputs.length - 1) inputs[i + 1].focus(); event.preventDefault(); }
+else if (event.keyCode> 64 && event.keyCode < 91) { inputs[i].value=String.fromCharCode(event.keyCode); 
+if (i !==inputs.length - 1) inputs[i + 1].focus(); event.preventDefault(); } } }); } } OTPInput(); });</script>
+
+        </body>
+        </html>

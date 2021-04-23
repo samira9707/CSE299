@@ -44,4 +44,10 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:26.8.0')
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.poovam:pin-edittext-field:1.2.3'
+//sdk dialogflow
+    implementation 'ai.api:sdk:2.0.7@aar'
+    implementation 'ai.api:libai:1.6.12'
+    //dialogFlow
+    implementation 'com.google.cloud:google-cloud-dialogflow:2.2.0'
+    implementation 'io.grpc:grpc-okhttp:1.31.1'
 }

@@ -228,6 +228,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
 
+   / <Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Button"
+    app:layout_constraintBottom_toBottomOf="@+id/Motor_Icon"
+    app:layout_constraintEnd_toStartOf="@+id/Motor_Icon"
+    app:layout_constraintStart_toEndOf="@+id/light_icon" >
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 

@@ -130,7 +130,7 @@ diam nonummy nibh euismod
 tincidunt ut laoreet dolore
 magna aliquam erat "
         android:textColor="#fff"
-        android:textFamily="Tahoma"
+
         android:textSize="18dp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -151,7 +151,7 @@ diam nonummy nibh euismod
 tincidunt ut laoreet dolore
 magna aliquam erat "
         android:textColor="#fff"
-        android:textFamily="Tahoma"
+
         android:textSize="18dp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -173,7 +173,7 @@ diam nonummy nibh euismod
 tincidunt ut laoreet dolore
 magna aliquam erat "
         android:textColor="#fff"
-        android:textFamily="Tahoma"
+
         android:textSize="18dp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -182,3 +182,4 @@ magna aliquam erat "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.279" />
+</androidx.constraintlayout.widget.ConstraintLayout>

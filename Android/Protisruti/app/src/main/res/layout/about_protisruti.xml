@@ -44,7 +44,6 @@
         android:textColor="#545353"
         android:textSize="20dp"
         android:textStyle="normal"
-        android:textFamily="Tahoma"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
@@ -61,7 +60,7 @@
 enough regarding facilities and knowledge, and there’s nobody to help them regarding these. So, from that thought, we discovered the idea that we should make software and a device which will work completely for those helpless farmers. Mainly this project is for those who spent lots of money to the labor cost where
 this device will help farmers to make their life easier. "
         android:textColor="#545353"
-        android:textFamily="Tahoma"
+
         android:textSize="20dp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
