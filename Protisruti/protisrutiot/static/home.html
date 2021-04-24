@@ -20,67 +20,13 @@
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="{% static 'css/style.css'%}">
 
-<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
-    <script>
-        var firebaseConfig = {
-            apiKey: "AIzaSyDuEOTHTtVqf3qVHHBjEZJM2u2uStNgAL0",
-    authDomain: "protisruti0.firebaseapp.com",
-    databaseURL: "https://protisruti0-default-rtdb.firebaseio.com",
-    projectId: "protisruti0",
-    storageBucket: "protisruti0.appspot.com",
-    messagingSenderId: "965893934891",
-    appId: "1:965893934891:web:a04fdee508d76df0633f6e",
-    measurementId: "G-BP8GN37Y3R"
-        };
 
-        firebase.initializeApp(firebaseConfig);
-        firebase.analytics();
-    </script>
-    <script type="text/javascript">
-        initApp = function() {
-            firebase.auth().onAuthStateChanged(function(user) {
-                if (user) {
-
-                    
-                   
-                    var userId = user.uid;
-                    var phoneNumber = user.phoneNumber;
-                    var database = firebase.database();
-                    console.log(phoneNumber);
-
-                    firebase.database().ref('users/' + userId).set({
-                        phoneNumber: phoneNumber,
-                        userId:userId,
-                    });
-
-
-        
-
-                    user.getIdToken().then(function(accessToken) {
-
-
-                    });
-
-                } else {
-                    window.location.href = "login";
-                }
-            }, function(error) {
-                console.log(error);
-            });
-        };
-
-        window.addEventListener('load', function() {
-            initApp()
-        });</script>
 
 </head>
 
 <body>
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-    <df-messenger chat-icon="https:&#x2F;&#x2F;binarybros.digital&#x2F;roshnee&#x2F;protisruti_rookha.png" chat-title="NewPro" agent-id="f4348cad-4aae-4f0a-8420-1bfc0b5d223b" language-code="en"></df-messenger>
+    <df-messenger chat-icon="https:&#x2F;&#x2F;binarybros.digital&#x2F;roshnee&#x2F;protisruti_rookha.png" chat-title="Protisruti" agent-id="f4348cad-4aae-4f0a-8420-1bfc0b5d223b" language-code="en"></df-messenger>
     <header>
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
@@ -88,7 +34,7 @@
                 <a class="navbar-brand" href="#"><img src={% static "img/q.png" %} class=" z-depth-0" alt="avatar image" width="40px"></a>
                 <div class="collapse-navbar" id="navbarSupportedContent-7">
                     <ul class="navbar-nav mr-auto">
-                        <li class="navbar-item"><button type="button" onclick="firebase.auth().signOut()" class="btn btn-outline-warning btn-rounded" data-mdb-ripple-color="dark">LOG OUT </button></li>
+                        <li class="navbar-item"><button type="button" class="btn btn-outline-warning btn-rounded" data-mdb-ripple-color="dark">LOG OUT </button></li>
                     </ul>
                 </div>
             </div>

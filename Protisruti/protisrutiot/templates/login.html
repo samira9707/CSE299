@@ -19,47 +19,66 @@
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="{% static 'css/style.css'%}">
     <!-- Bootstrap core CSS -->
-    
+        
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyDuEOTHTtVqf3qVHHBjEZJM2u2uStNgAL0",
+    authDomain: "protisruti0.firebaseapp.com",
+    databaseURL: "https://protisruti0-default-rtdb.firebaseio.com",
+    projectId: "protisruti0",
+    storageBucket: "protisruti0.appspot.com",
+    messagingSenderId: "965893934891",
+    appId: "1:965893934891:web:a04fdee508d76df0633f6e",
+    measurementId: "G-BP8GN37Y3R"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.css" />
+    <script type="text/javascript">
+        var uiConfig = {
+            
+            signInSuccessUrl: 'fetchdata',
+            signInOptions: [
+
+               
+                firebase.auth.PhoneAuthProvider.PROVIDER_ID,
+            ],
+
+        };
+
+        var ui = new firebaseui.auth.AuthUI(firebase.auth());
+
+        ui.start('#sign-in', uiConfig);
+    </script>
   </head>
   <body>
-    <header>
-    <body>
+    
+   
 	
 		  
     <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-color: #929E93;
    background-repeat: no-repeat; background-size: cover; background-position: center center;">
    
- <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-color: #929E93; background-repeat: no-repeat; background-size: cover; background-position: center center;">
-<div class="container height-100 d-flex justify-content-center align-items-center">
-    <div class="position-relative">
+ <div class="pt-5 text-center">
 
-        <div class="card p-2 text-center">
-
-            <h6>Enter Your Phone Number </h6>
+            <h2 style="font-weight:500; color:white">Log in to your account </h2>
 			<br>
-					<div class="input-group phone-input">
-						
-						<input type="hidden" name="phone[1][type]" class="type-input" value="" />
-						<input type="tel" name="phone[1][number]" placeholder="(123) 4567890"/>
-						
-						
-					</div>
-					<br>
-					<button type="button" class="btn btn-orange btn-sm btn-add-phone"><span class="glyphicon glyphicon-plus"></span> Enter</button>
-				</div>
-            
-           
-
 				
-			</div>
+       
+				</div>
 			
-		</div>
 		
-	</form>
+	
     
+  <div id="sign-in"></div>
 
-
-        </div>
 
 
 </div>
