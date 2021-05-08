@@ -1,0 +1,19 @@
+com/example/protisruti30/BuildConfig.java
+ com.example.protisruti30.BuildConfig
+com/example/protisruti30/adapters/ChatAdapter.java
+ com.example.protisruti30.adapters.ChatAdapter
+ com.example.protisruti30.adapters.ChatAdapter$MyViewHolder
+com/example/protisruti30/models/Message.java
+ com.example.protisruti30.models.Message
+com/example/protisruti30/helpers/RequestJavaV2Task.java
+ com.example.protisruti30.helpers.RequestJavaV2Task
+com/example/protisruti30/helpers/SendMessageInBg.java
+ com.example.protisruti30.helpers.SendMessageInBg
+com/example/protisruti30/chat.java
+ com.example.protisruti30.chat
+ com.example.protisruti30.chat$1
+com/example/protisruti30/interfaces/BotReply.java
+ com.example.protisruti30.interfaces.BotReply
+com/example/protisruti30/MainActivity.java
+ com.example.protisruti30.MainActivity
+ com.example.protisruti30.MainActivity$1
