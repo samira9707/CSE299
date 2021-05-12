@@ -1,8 +1,7 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -19,82 +18,83 @@
     <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="{% static 'css/style.css'%}">
-
-
-
-</head>
-
-<body>
-    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-    <df-messenger chat-icon="https:&#x2F;&#x2F;binarybros.digital&#x2F;roshnee&#x2F;protisruti_rookha.png" chat-title="Protisruti" agent-id="f4348cad-4aae-4f0a-8420-1bfc0b5d223b" language-code="en"></df-messenger>
+  </head>
+  <body>
     <header>
-        <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-            <div class="container">
-                <a class="navbar-brand" href="#"><img src={% static "img/q.png" %} class=" z-depth-0" alt="avatar image" width="40px"></a>
-                <div class="collapse-navbar" id="navbarSupportedContent-7">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="navbar-item"><button type="button" class="btn btn-outline-warning btn-rounded" data-mdb-ripple-color="dark">LOG OUT </button></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Navbar -->
-        <!-- Full Page Intro -->
-        <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url({% static 'img/c.png' %});
- background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        ">
-            <!-- Mask & flexbox options-->
-            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-                <!-- Content -->
-                <div class="container">
-                    <!--Grid row-->
-                    <div class="row">
-                        <!--Grid column-->
-                        <div class="col-md-12 mb-4 white-text text-center">
-                            <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>PROTISRUTI</strong></h1>
-                            <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
-                            <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong> {{Time}}
-        
-        </strong></h5><button class="btn btn-outline-white wow fadeInDown"><img id="light" onclick="changelight()" src= {% static "img/lightoff.png" %}
-        
-        width="50" height="60"></button><button class="btn btn-outline-white wow fadeInDown"><img id="soil" src= {% static "img/soil.png" %}
-        
-        width="30" height="40"><strong style="font-size:15px"> {{temp}}</strong></button><button class="btn btn-outline-white wow fadeInDown"><img id="motor" onclick="changemotor()" src= {% static "img/motoroff.png" %}
-        
-        width="50" height="60"></button></div>
-                        <!--Grid column-->
-                    </div>
-                    <!--Grid row-->
-                </div>
-                <!-- Content -->
-            </div>
-            <!-- Mask & flexbox options-->
-        </div>
-        <!-- Full Page Intro -->
-    </header>
-    <script>
-        function changelight() {
-            var img = document.getElementById('light');
-            if (img.src.match("lighton")) {
-                img.src = "{% static 'img/lightoff.png' %}";
-            } else {
-                img.src = "{% static 'img/lighton.png' %}";
-            }
-        }
-    </script>
-    <script>
-        function changemotor() {
-            var img = document.getElementById('motor');
-            if (img.src.match("motoron")) {
-                img.src = "{% static 'img/motoroff.png' %}";
-            } else {
-                img.src = "{% static 'img/motoron.gif' %}";
-            }
-        }
-    </script>
-</body>
+    
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#"> <img src={% static "img/q.png" %}  class=" z-depth-0" alt="avatar image"  width="40px" ></a>
+      
+      <div class="collapse-navbar" id="navbarSupportedContent-7">
+        <ul class="navbar-nav mr-auto">
+          <li class="navbar-item">
 
+            <button
+  type="button"
+  class="btn btn-outline-warning btn-rounded"
+  data-mdb-ripple-color="dark"
+>
+  LOG OUT
+</button>
+        </li>
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!-- Full Page Intro -->
+  <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url({% static 'img/c.png' %});
+   background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+      <!-- Content -->
+      <div class="container">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-12 mb-4 white-text text-center">
+            <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown"
+              data-wow-delay="0.3s"><strong>PROTISRUTI</strong></h1>
+            <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+            <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>{{Time}}</strong></h5>
+            
+            <button class="btn btn-outline-white wow fadeInDown"><strong style="font-size:15px">Soil Moisture: {{Moisture}}</strong></button>
+            <br>
+
+             
+
+<button class="btn btn-outline-white wow fadeInDown"><strong style="font-size:15px">Soil temperature: {{temp}}°C</strong></button>
+<br>
+
+<button class="btn btn-outline-white wow fadeInDown"><strong style="font-size:15px">Ldr: {{ldr}}</strong></button>
+             
+</button>
+
+
+          
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      
+      <!-- Content -->
+    </div>
+    <!-- Mask & flexbox options-->
+ 
+  </div>
+  <!-- Full Page Intro -->
+
+
+</header>
+
+
+
+
+  </body>
+ 
 </html>
