@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Protisruti</title>
+    <!-- protisruti icon -->
+    <link rel="icon" href="img/q.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+    
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#"> <img src="img/q.png"  class=" z-depth-0" alt="avatar image"  width="40px" ></a>
+      
+      <div class="collapse-navbar" id="navbarSupportedContent-7">
+        <ul class="navbar-nav mr-auto">
+          <li class="navbar-item">
+
+            <button
+  type="button"
+  class="btn btn-outline-warning btn-rounded"
+  data-mdb-ripple-color="dark"
+>
+  LOG OUT
+</button>
+        </li>
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!-- Full Page Intro -->
+  <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('img/c.png');
+   background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+      <!-- Content -->
+      <div class="container">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-12 mb-4 white-text text-center">
+            <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown"
+              data-wow-delay="0.3s"><strong>PROTISRUTI</strong></h1>
+            <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+            <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>20-04-2021-02:26:21</strong></h5>
+            
+            <button class="btn btn-outline-white wow fadeInDown"><img id="light" onclick="changelight()" src="img/lightoff.png" width="50" height="60">
+             
+</button>
+<button class="btn btn-outline-white wow fadeInDown"><img id="soil" src="img/soil.png" width="30" height="40"><strong style="font-size:15px">23°C</strong></button>
+
+
+<button class="btn btn-outline-white wow fadeInDown"><img id="motor" onclick="changemotor()" src="img/motoroff.png" width="50" height="60">
+             
+</button>
+
+
+          
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      
+      <!-- Content -->
+    </div>
+    <!-- Mask & flexbox options-->
+ 
+  </div>
+  <!-- Full Page Intro -->
+
+
+</header>
+
+
+<script>
+function changelight() {
+  var img = document.getElementById('light');
+  if (img.src.match("lighton")) {
+    img.src = "img/lightoff.png";
+  } else {
+    img.src = "img/lighton.png";
+    
+  }
+}
+</script>
+
+<script>
+function changemotor() {
+  var img = document.getElementById('motor');
+  if (img.src.match("motoron")) {
+    img.src = "img/motoroff.png";
+  } else {
+    img.src = "img/motoron.gif";
+  }
+}
+</script>
+
+
+  </body>
+ 
+</html>
